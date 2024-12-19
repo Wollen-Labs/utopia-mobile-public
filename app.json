@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "utopia-mobile",
+    "slug": "utopia-mobile",
+    "version": "1.0.0",
+    "newArchEnabled": false,
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ],
+      "expo-font",
+      "expo-build-properties"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ginowollenlabs.utopiamobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ginowollenlabs.utopiamobile"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9f13af0e-d76c-49e4-8a0a-8a516a47ae7e"
+      }
+    }
+  }
+}
